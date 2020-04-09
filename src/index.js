@@ -4,7 +4,7 @@ setTimeout(() => {
 
 function Promise(executor) {
 
-    if( typeof(executor) !== 'function') throw new Error('executor must be a function!');
+    if(typeof(executor) !== 'function') throw new Error('executor must be a function!');
     let _this = this;
     this.state = 'pending';
     this.res = undefined;
