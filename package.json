@@ -1,0 +1,29 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "手写实现promise",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --open --host 0.0.0.0 --port 8888 --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm19940203/Promise.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "jackson_alone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jm19940203/Promise/issues"
+  },
+  "homepage": "https://github.com/jm19940203/Promise#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
